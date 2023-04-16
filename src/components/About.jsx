@@ -5,18 +5,6 @@ const About = () => {
   const times = [
     {
       id: "",
-      time: "",
-      company: "",
-      desc: "",
-    },
-    {
-      id: "",
-      time: "",
-      company: "",
-      desc: "",
-    },
-    {
-      id: "",
       time: "Spring 2023",
       company: "Iowa State University Computer Science Department",
       desc: "Undergraduate research in robotics",
@@ -30,16 +18,19 @@ const About = () => {
   ];
 
   return (
-    <div className="w-full h-screen bg-gradient-to-b from-blue-200 to-blue-300">
-      <div>
-        <h3 className="text-4xl font-bold px-5 py-4 text-white">
+    <div
+      name="about"
+      className="w-full h-screen bg-gradient-to-b from-blue-200 to-blue-300"
+    >
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center md:h-screen">
+        <h3 className="text-4xl font-bold py-4 text-white">
           What I've Been Up To
         </h3>
         <ul className="flex-col justify-center items-center px-5">
           {/* Maps a time object to a list element*/}
           {times.map((time) => (
-            <li>
-              <ul className="px-3 justify-center">
+            <li className="flex flex-col px-3 justify-center items-center float-left">
+              <ul>
                 <li>{time.time}</li>
                 <li className="font-bold">{time.company}</li>
                 <li>{time.desc}</li>

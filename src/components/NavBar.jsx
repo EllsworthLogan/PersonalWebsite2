@@ -1,7 +1,7 @@
 import React from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
-import { Link } from "react-scroll";
+import { Link as ReactScrollLink } from "react-scroll";
 
 const NavBar = () => {
   //Creates a state for the dropdown menu that is set to false by default
@@ -25,10 +25,6 @@ const NavBar = () => {
       id: 4,
       link: "experience",
     },
-    {
-      id: 5,
-      link: "contact",
-    },
   ];
 
   return (
@@ -43,9 +39,9 @@ const NavBar = () => {
           {/* Maps a link object to a list element*/}
           {links.map((link) => (
             <li className="px-4 cursor-pointer font-medium hover:scale-105 hover:text-gray-500  duration-200 capitalize">
-              <Link to={link.link} smooth duration="500">
+              <ReactScrollLink to={link.link} smooth={true} duration={500}>
                 {link.link}
-              </Link>
+              </ReactScrollLink>
             </li>
           ))}
         </ul>

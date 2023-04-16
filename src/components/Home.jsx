@@ -1,6 +1,7 @@
 import React from "react";
 import me from "/Users/logan/Desktop/untitled folder 2/logansite/src/images/portrait.jpg";
 import { BsArrowRightSquare } from "react-icons/bs";
+import { Link as ReactScrollLink } from "react-scroll";
 
 const Home = () => {
   return (
@@ -20,12 +21,17 @@ const Home = () => {
             blanditiis omnis ipsa facilis. Modi, aliquid!
           </p>
           <div>
-            <button className="group w-fit flex items-center rounded-md bg-gradient-to-r from-blue-700 to-blue-500 px-4 py-3 my-2 cursor-pointer hover:scale-105 duration-200">
+            <ReactScrollLink
+              to="projects"
+              smooth={true}
+              duration={500}
+              className="group w-fit flex items-center rounded-md bg-gradient-to-r from-blue-700 to-blue-500 px-4 py-3 my-2 cursor-pointer hover:scale-105 duration-200"
+            >
               <div className="pr-2">Projects</div>
               <span className="group-hover:rotate-90 duration-200">
                 <BsArrowRightSquare />
               </span>
-            </button>
+            </ReactScrollLink>
           </div>
         </div>
         <div>
