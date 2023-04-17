@@ -1,5 +1,4 @@
 import React from "react";
-import { BsDashLg } from "react-icons/bs";
 
 const About = () => {
   const times = [
@@ -22,7 +21,7 @@ const About = () => {
       name="about"
       className="w-full h-screen bg-gradient-to-b from-blue-200 to-blue-300"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center md:h-screen">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center ">
         <h3 className="text-4xl font-bold py-4 text-white">
           What I've Been Up To
         </h3>
@@ -35,9 +34,6 @@ const About = () => {
                 <li className="font-bold">{time.company}</li>
                 <li>{time.desc}</li>
               </ul>
-              <BsDashLg className="rotate-90" />
-              <BsDashLg className="rotate-90" />
-              <BsDashLg className="rotate-90" />
             </li>
           ))}
         </ul>

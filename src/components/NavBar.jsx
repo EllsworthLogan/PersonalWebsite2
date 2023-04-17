@@ -63,7 +63,14 @@ const NavBar = () => {
             {/* Maps a link object to a list element*/}
             {links.map((link) => (
               <li className="px-4 py-6 text-4xl cursor-pointer font-medium hover:scale-105 hover:text-gray-500  duration-200 capitalize">
-                {link.link}
+                <ReactScrollLink
+                  to={link.link}
+                  smooth={true}
+                  duration={500}
+                  onClick={() => dropDown(!drop)}
+                >
+                  {link.link}
+                </ReactScrollLink>
               </li>
             ))}
           </ul>

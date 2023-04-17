@@ -10,15 +10,19 @@ const Home = () => {
       className="w-full h-screen bg-gradient-to-b from-gray-900 to-blue-200"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="px-5 flex flex-col justify-center h-full text-white">
+        <div className="px-5 flex flex-col justify-center h-full text-white max-w-2xl">
           <h2 className="text-4xl sm:text-7xl font-bold py-4">
             I'm a Computer Science Student
           </h2>
-          <p className="text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
-            cupiditate quasi, ipsam reiciendis exercitationem voluptatum,
-            doloribus veritatis eum esse hic, dolore dolores commodi autem
-            blanditiis omnis ipsa facilis. Modi, aliquid!
+          <p>
+            I am a Computer Science student at Iowa State University with a
+            minor in Data Science who has a strong interest in the fascinating
+            areas of <b>artificial intelligence</b> and <b>robotics</b>. My
+            curiosity for these subjects initially arose from a deep fascination
+            with <b>neuroscience</b> and <b>artificial general intelligence</b>.
+            I am dedicated to expanding my knowledge and expertise in these
+            fields and seeking out opportunities to make a meaningful impact
+            within them.
           </p>
           <div>
             <ReactScrollLink
