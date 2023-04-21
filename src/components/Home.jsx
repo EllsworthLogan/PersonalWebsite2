@@ -1,5 +1,5 @@
 import React from "react";
-import me from "/Users/logan/Desktop/untitled folder 2/logansite/src/images/portrait.jpg";
+import me from "/Users/logan/Desktop/logansite/src/images/portrait.jpg";
 import { BsArrowRightSquare } from "react-icons/bs";
 import { Link as ReactScrollLink } from "react-scroll";
 
@@ -12,7 +12,7 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="px-5 flex flex-col justify-center h-full text-white max-w-2xl">
           <h2 className="text-4xl sm:text-7xl font-bold py-4">
-            I'm a Computer Science Student
+            I'm Logan Ellsworth
           </h2>
           <p>
             I am a Computer Science student at Iowa State University with a

@@ -23,7 +23,7 @@ const NavBar = () => {
     },
     {
       id: 4,
-      link: "experience",
+      link: "contact",
     },
   ];
 
@@ -32,7 +32,7 @@ const NavBar = () => {
       <div className="flex justify-between items-center w-full h-24 px-4 text-white bg-gray-900">
         <div>
           <h1 className="font-signature text-5xl cursor-pointer hover:scale-105 hover:text-gray-500 duration-200">
-            Logan Ellsworth
+            LE
           </h1>
         </div>
         <ul className="hidden md:flex">
