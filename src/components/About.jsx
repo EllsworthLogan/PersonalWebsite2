@@ -4,8 +4,15 @@ const About = () => {
   const times = [
     {
       id: "",
+      time: "Summer 2022",
+      company: "Robison Trucking",
+      title: "Data Intern",
+      desc: "",
+    },
+    {
+      id: "",
       time: "Fall 2023",
-      company: "Iowa State University Computer Science Department",
+      company: "Iowa State University",
       title: "Undergraduate research in marketing",
       desc: "Write programs to automate research tasks",
     },
@@ -14,7 +21,7 @@ const About = () => {
       time: "Spring 2023",
       company: "Iowa State University Computer Science Department",
       title: "Undergraduate research in robotics",
-      desc: "",
+      desc: "Computer vision, machine learning, and robotics",
     },
     {
       id: "",
@@ -28,9 +35,9 @@ const About = () => {
   return (
     <div name="about" className="w-full h-full md:h-screen bg-blue-100">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-16">
-          <h3 className="text-4xl font-bold inline border-b-4 border-black">
-            What I've Been Up To
+        <div className="pb-12 text-center">
+          <h3 className="text-5xl font-bold py-2  border-b-4 border-gray-500">
+            Work History
           </h3>
         </div>
         <div className="">
@@ -38,11 +45,11 @@ const About = () => {
             <ul className="flex flex-col gap-8">
               {/* Maps a time object to a list element*/}
               {times.map((time) => (
-                <li className="hover:scale-105 duration-200 py-4 px-4 border-2 border-black">
+                <li className="hover:scale-105 duration-200 py-4 px-4 border-2 border-black shadow-md shadow-gray-600">
                   <ul>
                     <li>{time.time}</li>
-                    <li className="font-bold">{time.company}</li>
-                    <li>{time.title}</li>
+                    <li className="text-xl font-bold">{time.company}</li>
+                    <li className="">{time.title}</li>
                     <li>{time.desc}</li>
                   </ul>
                 </li>
