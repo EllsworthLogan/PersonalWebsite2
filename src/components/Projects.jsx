@@ -27,7 +27,7 @@ const Projects = () => {
       alt: "3img",
       title: "Image Classifier",
       demo: "https://www.google.com",
-      code: "https://www.yahoo.com",
+      code: "https://github.com/EllsworthLogan/ImageClassifier",
     },
   ];
 
