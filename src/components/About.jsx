@@ -26,10 +26,7 @@ const About = () => {
   ];
 
   return (
-    <div
-      name="about"
-      className="w-full h-full md:h-screen bg-gradient-to-b from-blue-200 to-blue-300"
-    >
+    <div name="about" className="w-full h-full md:h-screen bg-blue-100">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-16">
           <h3 className="text-4xl font-bold inline border-b-4 border-black">
