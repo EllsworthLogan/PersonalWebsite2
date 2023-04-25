@@ -3,28 +3,28 @@ import React from "react";
 const About = () => {
   const times = [
     {
-      id: "",
+      id: "1",
       time: "Summer 2022",
       company: "Robison Trucking",
       title: "Data Intern",
       desc: "",
     },
     {
-      id: "",
+      id: "2",
       time: "Fall 2023",
       company: "Iowa State University",
       title: "Undergraduate research in marketing",
       desc: "Write programs to automate research tasks",
     },
     {
-      id: "",
+      id: "3",
       time: "Spring 2023",
       company: "Iowa State University Computer Science Department",
       title: "Undergraduate research in robotics",
-      desc: "Computer vision, machine learning, and robotics",
+      desc: "Computer vision applied to robotics",
     },
     {
-      id: "",
+      id: "4",
       time: "Summer 2023",
       company: "Kent Corporation",
       title: "Desktop Services Tech Intern",
@@ -45,7 +45,10 @@ const About = () => {
             <ul className="flex flex-col gap-8">
               {/* Maps a time object to a list element*/}
               {times.map((time) => (
-                <li className="hover:scale-105 duration-200 py-4 px-4 border-2 border-black shadow-md shadow-gray-600">
+                <li
+                  key={time.id}
+                  className="hover:scale-105 duration-200 py-4 px-4 border-2 border-black shadow-md shadow-gray-600"
+                >
                   <ul>
                     <li>{time.time}</li>
                     <li className="text-xl font-bold">{time.company}</li>

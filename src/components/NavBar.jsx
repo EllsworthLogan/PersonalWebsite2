@@ -38,7 +38,10 @@ const NavBar = () => {
         <ul className="hidden md:flex">
           {/* Maps a link object to a list element*/}
           {links.map((link) => (
-            <li className="px-4 cursor-pointer font-medium hover:scale-105 hover:text-gray-500  duration-200 capitalize">
+            <li
+              key={link.id}
+              className="px-4 cursor-pointer font-medium hover:scale-105 hover:text-gray-500  duration-200 capitalize"
+            >
               <ReactScrollLink to={link.link} smooth={true} duration={500}>
                 {link.link}
               </ReactScrollLink>

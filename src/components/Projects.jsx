@@ -43,7 +43,10 @@ const Projects = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {/* Maps a project object to a project space*/}
           {projects.map((project) => (
-            <div className="hover:scale-105 duration-200  shadow-md shadow-gray-600 rounded-lg">
+            <div
+              key={project.id}
+              className="hover:scale-105 duration-200  shadow-md shadow-gray-600 rounded-lg"
+            >
               <p className="text-center text-2xl font-bold">{project.title}</p>
               <img
                 src={project.preview}

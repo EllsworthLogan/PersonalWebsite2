@@ -37,11 +37,15 @@ const Socials = () => {
       <ul>
         {/* Maps a social link object to a list element */}
         {links.map((link) => (
-          <li className="flex justify-between items-center w-40 h-14 px-4 bg-gray-500 capitalize ml-[-100px] rounded-md hover:ml-[-10px] duration-300">
+          <li
+            key={link.id}
+            className="flex justify-between items-center w-40 h-14 px-4 bg-gray-500 capitalize ml-[-100px] rounded-md hover:ml-[-10px] duration-300"
+          >
             <a
               href={link.link}
               target="_blank"
               rel="noreferrer"
+              download={link.download ? link.link : undefined}
               className="flex justify-between items-center w-full text-white"
             >
               <>

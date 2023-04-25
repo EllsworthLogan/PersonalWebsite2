@@ -8,22 +8,26 @@ import {
 
 const links = [
   {
+    key: "1",
     id: "GitHub",
     link: "https://github.com/EllsworthLogan",
     icon: <AiFillGithub size={30} />,
   },
   {
+    key: "2",
     id: "LinkedIn",
     link: "https://www.linkedin.com/in/loganellsworth/",
     icon: <AiFillLinkedin size={30} />,
   },
   {
+    key: "3",
     id: "Resume",
     link: "/resume.pdf",
     icon: <AiOutlineFilePdf size={30} />,
     download: true,
   },
   {
+    key: "4",
     id: "email",
     link: "mailto:lte@iastate.edu",
     icon: <AiOutlineMail size={30} />,
@@ -52,11 +56,15 @@ const Contact = () => {
             <ul className="">
               {/* Maps a social link object to a list element */}
               {links.map((link) => (
-                <li className="flex justify-between items-center my-4 w-40 h-14 px-4 bg-gray-500 capitalize rounded-md hover:scale-110 duration-200 border-2 border-black hover:shadow-md hover:shadow-white">
+                <li
+                  key={link.key}
+                  className="flex justify-between items-center my-4 w-40 h-14 px-4 bg-gray-500 capitalize rounded-md hover:scale-110 duration-200 border-2 border-black hover:shadow-md hover:shadow-white"
+                >
                   <a
                     href={link.link}
                     target="_blank"
                     rel="noreferrer"
+                    download={link.download ? link.link : undefined}
                     className="flex justify-between items-center w-full text-white"
                   >
                     <>
