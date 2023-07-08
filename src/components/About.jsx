@@ -27,7 +27,7 @@ const About = () => {
       id: "4",
       time: "Summer 2023",
       company: "Kent Corporation",
-      title: "Desktop Services Tech Intern",
+      title: "Networking IT Intern",
       desc: "",
     },
   ];
