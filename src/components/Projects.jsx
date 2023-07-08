@@ -19,7 +19,7 @@ const Projects = () => {
       alt: "3img",
       title: "Shopping Website",
       demo: "https://www.google.com",
-      code: "https://www.yahoo.com",
+      code: "https://github.com/EllsworthLogan/ShoppingCartSite",
     },
     {
       id: 3,
@@ -54,11 +54,11 @@ const Projects = () => {
                 className="rounded-md"
               />
               <div className="flex justify-center items-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 rounded-md border-2 border-black my-2">
+                {/* <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 rounded-md border-2 border-black my-2">
                   <a href={project.demo} target="_blank" rel="noreferrer">
                     View Demo
                   </a>
-                </button>
+                </button> */}
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 rounded-md border-2 border-black my-2">
                   <a href={project.code} target="_blank" rel="noreferrer">
                     See Code
