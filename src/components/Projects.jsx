@@ -1,7 +1,7 @@
 import React from "react";
-import cart from "/Users/logan/Desktop/logansite/src/images/cart.png";
-import ltb from "/Users/logan/Desktop/logansite/src/images/ltb.png";
-import classi from "/Users/logan/Desktop/logansite/src/images/class.png";
+import cart from "/Users/loganellsworth/Documents/Programming/LocalPersonalSite/PersonalWebsite/src/images/cart.png";
+import ltb from "/Users/loganellsworth/Documents/Programming/LocalPersonalSite/PersonalWebsite/src/images/ltb.png";
+import classi from "/Users/loganellsworth/Documents/Programming/LocalPersonalSite/PersonalWebsite/src/images/class.png";
 
 const Projects = () => {
   const projects = [
@@ -10,7 +10,7 @@ const Projects = () => {
       preview: ltb,
       alt: "3img",
       title: "Brewery Website",
-      demo: "https://www.google.com",
+      demo: "Built a fully functional website for a brewery using MySQL, Express, React, Node, and Tailwind CSS. This project was done with a team of three people. We frequently reviewed the objectives determined through client consultations, and we performed a demonstration of the finished product and provided documentation for the client.",
       code: "https://github.com/prolling/Lake-Time-Brewery-Website",
     },
     {
@@ -18,7 +18,7 @@ const Projects = () => {
       preview: cart,
       alt: "3img",
       title: "Shopping Website",
-      demo: "https://www.google.com",
+      demo: "Built a simulated shopping website with a team of three people. We used Bootstrap and React for this project.",
       code: "https://github.com/EllsworthLogan/ShoppingCartSite",
     },
     {
@@ -26,7 +26,7 @@ const Projects = () => {
       preview: classi,
       alt: "3img",
       title: "Image Classifier",
-      demo: "https://www.google.com",
+      demo: "Built and trained a neural network on project-specific scraped data to classify an image as one of four breeds of cat and dog. Utilized TensorFlow, OpenCV, Matplotlib.",
       code: "https://github.com/EllsworthLogan/ImageClassifier",
     },
   ];
@@ -53,6 +53,7 @@ const Projects = () => {
                 alt={project.alt}
                 className="rounded-md"
               />
+              <div className="p-2">{project.demo}</div>
               <div className="flex justify-center items-center">
                 {/* <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 rounded-md border-2 border-black my-2">
                   <a href={project.demo} target="_blank" rel="noreferrer">

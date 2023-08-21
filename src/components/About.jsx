@@ -6,8 +6,9 @@ const About = () => {
       id: "1",
       time: "Summer 2022",
       company: "Robison Trucking",
-      title: "Data Intern",
+      title: "Summer data Intern",
       desc: "",
+      desc2: "",
     },
     {
       id: "2",
@@ -15,20 +16,23 @@ const About = () => {
       company: "Iowa State University",
       title: "Undergraduate research in marketing",
       desc: "Write programs to automate research tasks",
+      desc2: "",
     },
     {
       id: "3",
       time: "Spring 2023",
       company: "Iowa State University Computer Science Department",
       title: "Undergraduate research in robotics",
-      desc: "Computer vision applied to robotics",
+      desc: "",
+      desc2: "",
     },
     {
       id: "4",
       time: "Summer 2023",
       company: "Kent Corporation",
       title: "Networking IT Intern",
-      desc: "",
+      desc: "Build and troubleshoot networks.",
+      desc2: "Receive training in networking and security, servers and systems, and database administration.",
     },
   ];
 
@@ -54,6 +58,7 @@ const About = () => {
                     <li className="text-xl font-bold">{time.company}</li>
                     <li className="">{time.title}</li>
                     <li>{time.desc}</li>
+                    <li>{time.desc2}</li>
                   </ul>
                 </li>
               ))}

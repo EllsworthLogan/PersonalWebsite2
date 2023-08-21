@@ -1,5 +1,5 @@
 import React from "react";
-import me from "/Users/logan/Desktop/logansite/src/images/portrait.jpg";
+import me from "/Users/loganellsworth/Documents/Programming/LocalPersonalSite/PersonalWebsite/src/images/portrait.jpg";
 import { BsArrowRightSquare } from "react-icons/bs";
 import { Link as ReactScrollLink } from "react-scroll";
 
@@ -15,8 +15,7 @@ const Home = () => {
             I'm Logan Ellsworth
           </h2>
           <p>
-            I am a Computer Science student at Iowa State University with a
-            minor in Data Science who has a strong interest in the fascinating
+            I am a Computer Science student at Iowa State University who has a strong interest in the
             areas of <b>artificial intelligence</b> and <b>robotics</b>. My
             curiosity for these subjects initially arose from a deep fascination
             with <b>neuroscience</b> and <b>artificial general intelligence</b>.
