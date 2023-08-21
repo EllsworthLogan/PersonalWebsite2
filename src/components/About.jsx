@@ -31,8 +31,8 @@ const About = () => {
       time: "Summer 2023",
       company: "Kent Corporation",
       title: "Networking IT Intern",
-      desc: "Build and troubleshoot networks.",
-      desc2: "Receive training in networking and security, servers and systems, and database administration.",
+      desc: "Built and troubleshot networks.",
+      desc2: "Received training in networking and security, servers and systems, and database administration.",
     },
   ];
 
