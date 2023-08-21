@@ -6,7 +6,7 @@ const About = () => {
       id: "1",
       time: "Summer 2022",
       company: "Robison Trucking",
-      title: "Summer data Intern",
+      title: "Summer data intern",
       desc: "",
       desc2: "",
     },
@@ -15,7 +15,7 @@ const About = () => {
       time: "Fall 2023",
       company: "Iowa State University",
       title: "Undergraduate research in marketing",
-      desc: "Write programs to automate research tasks",
+      desc: "Wrote programs to automate research tasks",
       desc2: "",
     },
     {
