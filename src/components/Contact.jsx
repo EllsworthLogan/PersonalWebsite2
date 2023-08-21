@@ -22,7 +22,7 @@ const links = [
   {
     key: "3",
     id: "Resume",
-    link: "https://github.com/EllsworthLogan/PersonalWebsite/raw/main/public/resume.pdf",
+    link: "https://github.com/EllsworthLogan/PersonalWebsite/raw/main/public/resumeNew.pdf",
     icon: <AiOutlineFilePdf size={30} />,
     download: true,
   },
