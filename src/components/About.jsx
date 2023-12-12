@@ -20,6 +20,14 @@ const About = () => {
     },
     {
       id: "3",
+      time: "Summer 2023",
+      company: "Kent Corporation",
+      title: "Networking IT Intern",
+      desc: "Built and troubleshot networks.",
+      desc2: "Received training in networking and security, servers and systems, and database administration.",
+    },
+    {
+      id: "4",
       time: "Spring 2023",
       company: "Iowa State University Computer Science Department",
       title: "Undergraduate research in robotics",
@@ -27,12 +35,12 @@ const About = () => {
       desc2: "",
     },
     {
-      id: "4",
-      time: "Summer 2023",
-      company: "Kent Corporation",
-      title: "Networking IT Intern",
-      desc: "Built and troubleshot networks.",
-      desc2: "Received training in networking and security, servers and systems, and database administration.",
+      id: "5",
+      time: "Spring 2023",
+      company: "John Deere",
+      title: "Student Software Engineer",
+      desc: "",
+      desc2: "",
     },
   ];
 
